@@ -1,5 +1,0 @@
-#my way - is it a bad way?
-for i in range(10):
-    for j in range (-1, 9):
-        print (j+1, end=" ")
-    print()
