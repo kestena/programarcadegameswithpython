@@ -28,14 +28,15 @@ oooooooooooooooo
 user_input = int(input("Input a number: "))
 #as seen from example the top and bottom are twice the input from user
 top_and_bottom_range = 2*user_input
+#placeholder for spaces to be used
 space_var = " "
 for i in range (0, top_and_bottom_range):
     print ("o", end="")
 print()
-for i in range (0, user_input+1):
+for i in range (0, user_input+1): 
     if user_input == 1:
         print ("oo")
-    else:  
+    else:
         print ("o", (top_and_bottom_range-4)*space_var, "o")
 for i in range (0, top_and_bottom_range):
     print ("o", end = "")
