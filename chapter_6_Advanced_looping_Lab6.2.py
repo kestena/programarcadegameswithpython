@@ -6,8 +6,8 @@
 #assignment but in the building area.
 
 '''
-Create a big box out of n rows of little o's for any desired size n. Use an input statement to allow the user to enter the value for n and then print the properly sized box.
-
+Create a big box out of n rows of little o's for any desired size n. Use an input statement to allow the user to 
+enter the value for n and then print the properly sized box.
 E.g. n = 3
 oooooo
 o    o
@@ -40,3 +40,26 @@ for i in range (0, user_input+1):
         print ("o", (top_and_bottom_range-4)*space_var, "o")
 for i in range (0, top_and_bottom_range):
     print ("o", end = "")
+
+#####################################Second Possibility as shown in assignemnt example#############################  
+# E.g. n = 3
+# oooooo
+# o    o
+# oooooo  
+###################################################################################################################
+  
+#get input from user
+user_input = int(input("Input a number: "))
+#as seen from example the top and bottom are twice the input from user
+top_and_bottom_range = 2*user_input
+space_var = " "
+for i in range (0, top_and_bottom_range):
+    print ("o", end="")
+print()
+for i in range (1, user_input-1):
+    if user_input == 1:
+        print ("oo")
+    else:  
+        print ("o", (top_and_bottom_range-4)*space_var, "o")
+for i in range (0, top_and_bottom_range):
+    print ("o", end = "")  
