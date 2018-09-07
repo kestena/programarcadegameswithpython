@@ -1,3 +1,32 @@
+'''
+Assignment:
+Print the following for any positive integer n. Use an input statement to allow the user to enter 
+the value for n and then print the properly sized box.
+
+E.g. n = 3
+ 
+1 3 5 5 3 1
+3 5     5 3
+5         5
+5         5
+3 5     5 3
+1 3 5 5 3 1
+ 
+E.g. n = 5
+1 3 5 7 9 9 7 5 3 1
+3 5 7 9     9 7 5 3
+5 7 9         9 7 5
+7 9             9 7
+9                 9
+9                 9
+7 9             9 7
+5 7 9         9 7 5
+3 5 7 9     9 7 5 3
+1 3 5 7 9 9 7 5 3 1
+
+'''
+
+
 user_choice = int(input("Please enter a number: "))
 m = 2*user_choice
 #triangle 1
