@@ -1,4 +1,6 @@
 '''
+I actually made it work with double digit numbers as well :)
+
 Assignment:
 Print the following for any positive integer n. Use an input statement to allow the user to enter 
 the value for n and then print the properly sized box.
